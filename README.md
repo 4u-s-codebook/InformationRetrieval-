@@ -2,7 +2,7 @@
 CS267 Fall 2019 :Topics in Database Systems | Information Retrieval by Prof. Chris Pollet.
 
 
-The goal of this project is to build a Inverted Index capable of performing boolean queries.
+The goal of this project is to build a Inverted Index capable of performing boolean queries for information retrieval.
 The code ranks result according to the vector space model. 
 
 
