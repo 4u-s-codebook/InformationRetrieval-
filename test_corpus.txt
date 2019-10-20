@@ -1,0 +1,26 @@
+Each command line argument in the query is either _AND, _OR, or a term.
+Here a term is defined to be an alphanumeric string not containing
+underscore. For this homework, two terms are the same if they are the
+same after converting them to lower case. An example of running the
+program might be:
+
+python PositiveRank.py my_corpus.txt 5 "_OR _AND good dog _AND bad cat"
+
+To compute VSM scores use all the terms from the query. I.e.,
+for the above these would be good, dog,
+
+bad, cat. The output
+should be a line with DocId Score on it, followed by a sequence of
+num_result lines with this information for the top num_results
+many documents. For example,
+
+DocId Score
+7 .65
+2 .51
+3 .23
+11 .0012
+
+You should use the ADT from the book for inverted index retrieval
+and implement your program using calls to the first, last, prev,
+next, docRight, docLeft, etc methods. You should be using galloping
+search for the implementation of the relevant methods.

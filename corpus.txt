@@ -1,0 +1,23 @@
+Here aux_program is at most one of java, php, python (your choice). 
+
+For php or python, PositiveRank should be either PositiveRank.php or PositiveRank.py, respectively.
+If you choose to do this project in C or C++, aux_program is optional. Your program will be compiled on a Mac 
+running MacOS Mojave, having used brew to install the compiler. filename is the name of some text document. 
+
+This document is assumed to contain only ASCII characters with '\n' used for line endings. 
+For this assignment, the sequence '\n\n' indicates a new "document" within this file. 
+In the above, num_results indicates the top how many of the results satisfying the query should be returned. 
+The query is a sequence of command line arguments in Polish notation. Each command line argument in the query is either _AND, _OR, or a term. 
+Here a term is defined to be an alphanumeric string not containing underscore. 
+
+For this homework, two terms are the same if they are the same after converting them to lower case. An example of running the program might be: 
+
+To compute VSM scores use all the terms from the query. I.e., for the above these would be good, dog, bad, cat. 
+The output should be a line with DocId Score on it, followed by a sequence of num_result lines with this 
+information for the top num_results many documents. For example
+
+Cases we have handled: 
+1. One term that exists, multiple docs
+2. One term that doesn't exist
+3. 1 exists and 1 doesn't : AND, OR
+4. One doc & 1 term

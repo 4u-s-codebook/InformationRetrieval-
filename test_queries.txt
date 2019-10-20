@@ -1,0 +1,3 @@
+java PositiveRank test_corpus.txt 5 "_OR _AND good dog _AND bad cat"
+java PositiveRank test_corpus.txt 2 "_OR _AND _OR good ghoul _OR cat cate _AND _OR the thus _OR and android"
+java PositiveRank test_corpus.txt 10 "_AND 5 1"
