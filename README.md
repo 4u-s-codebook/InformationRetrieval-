@@ -15,9 +15,9 @@ python PositiveRank.py my_corpus.txt 5 "_OR _AND good dog _AND bad cat"
 The output should is a line with DocId Score on it, followed by a sequence of num_result lines with this information for the top num_results many documents.
 For example,
 
-DocId Score
-  7   .65 
-  2   .51
-  3   .23
- 11  .0012
+DocId Score  
+  7   .65   
+  2   .51. 
+  3   .23. 
+ 11  .0012. 
 
