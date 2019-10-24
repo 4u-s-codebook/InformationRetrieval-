@@ -2,9 +2,9 @@
 CS267 Fall 2019 :Topics in Database Systems | Information Retrieval by Prof. Chris Pollet.
 
 
-#1. This project builds an Inverted Index capable of performing boolean queries for information retrieval.
-#2. The code ranks result according to the vector space model. 
-#3. It computes VSM scores use all the terms from the query. I.e., for the above these would be good, dog, bad, cat.
+#1. This project builds an Inverted Index capable of performing boolean queries for information retrieval.  
+#2. The code ranks result according to the vector space model.   
+#3. It computes VSM scores use all the terms from the query. I.e., for the above these would be good, dog, bad, cat.  
 
 
 An example of running the program might be:
