@@ -16,8 +16,7 @@ The output should is a line with DocId Score on it, followed by a sequence of nu
 For example,
 
 DocId Score
-
-  7   .65
+  7   .65 
   2   .51
   3   .23
  11  .0012
