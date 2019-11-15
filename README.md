@@ -1,5 +1,5 @@
 # InformationRetrieval-
-CS267 Fall 2019 :Topics in Database Systems | Information Retrieval by Prof. Chris Pollet.
+
 
 
 #1. This project builds an Inverted Index capable of performing boolean queries for information retrieval.  
