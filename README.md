@@ -8,7 +8,7 @@
 
 
     An example of running the program might be:
-    java PositiveRank my_corpus.txt 5 "_OR _AND good dog _AND bad cat"
+    $java PositiveRank my_corpus.txt 5 "_OR _AND good dog _AND bad cat"
     
     Files used: PositiveRank.java , InvertedIndexer.java
 
@@ -27,7 +27,7 @@
      This program ranks the results using Bm25 Algorithm and Max Score Huristic.
      
       An example of running the program might be:
-      java Bm25MaxScore my_corpus.txt 5 "good php python cat"
+      $java Bm25MaxScore my_corpus.txt 5 "good php python cat"
       
       
       Files used: Bm25MaxScore.java , InvertedIndexer.java , MinHeap.java , Node.java
