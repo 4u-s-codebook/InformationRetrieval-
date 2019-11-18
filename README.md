@@ -9,6 +9,8 @@
 
     An example of running the program might be:
     java PositiveRank my_corpus.txt 5 "_OR _AND good dog _AND bad cat"
+    
+    Files used: PositiveRank.java , InvertedIndexer.java
 
      The output should is a line with DocId Score on it, followed by a sequence of num_result lines with this information for the top num_results many documents.
      For example,
