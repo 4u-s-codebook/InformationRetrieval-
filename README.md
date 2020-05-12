@@ -1,6 +1,6 @@
 # InformationRetrieval-
 
-## 1. Information retrieval using Vector Space Model
+## 1. Document Search Tool using Vector Space Model (VSM scores)
 
     1. This project builds an Inverted Index capable of performing boolean queries for information retrieval.  
     2. The code ranks result according to the vector space model.   
@@ -23,7 +23,7 @@
 
 
 
-## 2. Information retrieval using BM25 Algorithm along with Max Score Heuristic 
+## 2. Document Search Tool /retrieval using BM25 Algorithm along with Max Score Heuristic 
      This program ranks the results using Bm25 Algorithm and Max Score Huristic.
      
       An example of running the program might be:
@@ -32,3 +32,11 @@
       
       Files used: Bm25MaxScore.java , InvertedIndexer.java , MinHeap.java , Node.java
 
+## 3. Golomb Rice Coding implementation for Index File
+       Golomb coding is a lossless data compression method highly suitable for situations in which the occurrence of small values in the input stream is significantly more likely than large values. [1]
+       
+       Since, Index files are quite large in size, this implementation significantly reduces the size of Index file.
+       
+       
+       References :
+       1.https://en.wikipedia.org/wiki/Golomb_coding
